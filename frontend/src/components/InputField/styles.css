@@ -1,0 +1,25 @@
+.input-field-root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-field-root span {
+  font-weight: bold;
+  color: #444;
+  font-size: 14px;
+  padding: 0 0 0 10px;
+}
+
+.input-field-root input {
+  border: none;
+  border-bottom: 1px solid rgba(125, 76, 219, 0.3);
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #777;
+}
+
+.input-field-root input:focus {
+  border-bottom: 1px solid rgba(125, 76, 219, 1);
+}

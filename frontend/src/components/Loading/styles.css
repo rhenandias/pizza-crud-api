@@ -1,0 +1,24 @@
+.loading-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: #444;
+  margin: 100px 0;
+  font-size: 15px;
+}
+
+.loading-div img {
+  margin-top: 20px;
+}
+
+.loading-div p {
+  margin: 20px 0;
+  text-align: center;
+}
+
+@media (max-width: 425px) {
+  .loading-div {
+    margin: 20px 0;
+  }
+}

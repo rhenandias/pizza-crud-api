@@ -1,0 +1,52 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 400px;
+}
+
+.card #title {
+  color: #444;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.card #ingredients {
+  color: #777;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+.card #price {
+  color: #777;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+.card #card-options {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.card a {
+  text-decoration: none;
+  color: #7d4cdb;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 30px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.card img {
+  width: 18px;
+  height: 18px;
+  margin: 0 10px 0 0;
+}
+.card a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

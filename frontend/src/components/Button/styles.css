@@ -1,0 +1,21 @@
+.button-generic {
+  font-weight: bold;
+  font-size: 100%;
+  border-radius: 100px;
+}
+
+.button-generic:hover {
+  cursor: pointer;
+}
+
+.button-confirm {
+  color: #fff;
+  background-color: #7d4cdb;
+  border: none;
+}
+
+.button-cancel {
+  color: #7d4cdb;
+  background-color: #fff;
+  border: 2px solid #7d4cdb;
+}
